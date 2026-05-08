@@ -20,8 +20,13 @@ builds:
       - "386"
 
 archives:
-  - id: default
-    formats: [tar.gz]
+  - formats: [tar.gz]
+
+    name_template: >-
+      {{ .ProjectName }}_
+      {{ .Version }}_
+      {{ .Os }}_
+      {{ .Arch }}
 
     format_overrides:
       - goos: windows
