@@ -32,5 +32,5 @@ checksum:
 
 release:
   github:
-    owner: jiangsq666@gmail.com
+    owner: jiangsq666
     name: repo
